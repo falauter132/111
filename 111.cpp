@@ -36,16 +36,6 @@ void Random(int* arr, int size) {
 	}
 }
 
-void Maximum(int* arr, int size) {
-	short i;
-	int max = *arr;
-	for (i = 1; i < size; i++) {
-		if (max < *(arr + i)) {
-			max = *(arr + i);
-		}
-	}
-	cout << max;
-}
 void Maximum(int arr[], int size) {
 	int max = arr[0];
 	int index = 0;
